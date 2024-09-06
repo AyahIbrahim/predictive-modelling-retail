@@ -41,6 +41,43 @@ The λ parameters below indicate that the data required a moderate transformatio
 
 ![img2](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Revenue%20by%20Country.png).
 
+
+### The fact that many other countries have higher average order totals despite contributing less to total revenue indicates that while these countries may have fewer sales transactions compared to the UK, the transactions they do have are generally larger.
+### This could mean that customers in these countries are purchasing more expensive items or buying in larger quantities per transaction.
+
+# Predictive Modelling using Supervised Machine Learning - Time Series Forecasting: 
+
+### With the info we have so far, I will first address the question: Is there hope that revenue will increase in the next year? 
+
+• According to the model prediction below, it will most likely continue a similar pattern as the previous years. 
+
+There is a 95% probability that the predicted revenue values for the next year will lie within the interval (light blue shaded area).
+A wider interval (like 95% CI) sacrifices some precision for increased certainty (only a 5% chance of being incorrect). Therefore, it provides a high level of confidence.
+
+Given that the Mean Absolute Error (MAE) is quite low (0.07901568), the model has a good average performance which indicates that the model’s predictions on average are generally close to the actual revenue values, making it reliable.
+
+![forecast](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/2775bc24c752843372ebb2285b7c24a99812291b/Project%20Steps%20%26%20Visuals/Time%20Series%20Forecast.png).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![img3](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Avg%20Order%20Total%20by%20Country.png).
 
 
