@@ -59,6 +59,27 @@ Given that the Mean Absolute Error (MAE) is quite low (0.07901568), the model ha
 
 ![forecast](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/2775bc24c752843372ebb2285b7c24a99812291b/Project%20Steps%20%26%20Visuals/Time%20Series%20Forecast.png).
 
+## 👩‍👦 Customer Segmentation: 
+
+The retail store is facing an issue in that: 
+
+• United Kingdom: drives all sales and contributes to most of the revenue but has a very low average transaction size.
+
+• All other countries: contribute much less to total revenue but have very high average transaction totals. 
+
+# 🔢 Application of RFM Analysis:
+
+Therefore, we will be splitting our customers into two groups:
+
+• those who are only from the UK.
+• those who are from any of the 40 other countries. 
+
+After that, we will be proposing a marketing tool for each group known as the **RFM (Recency, Frequency, Monetary)** in hopes of resolving the issue.
+
+![RFM](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/2d5703c16436d76f8ac107da10ca32bfc1a1c095/Project%20Steps%20%26%20Visuals/RFM%20Explanation.png).
+
+
+
 
 
 
