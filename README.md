@@ -41,6 +41,7 @@ The λ parameters below indicate that the data required a moderate transformatio
 
 ![img2](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Revenue%20by%20Country.png).
 
+![img3](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Avg%20Order%20Total%20by%20Country.png).
 
 ### The fact that many other countries have higher average order totals despite contributing less to total revenue indicates that while these countries may have fewer sales transactions compared to the UK, the transactions they do have are generally larger.
 ### This could mean that customers in these countries are purchasing more expensive items or buying in larger quantities per transaction.
@@ -61,23 +62,5 @@ Given that the Mean Absolute Error (MAE) is quite low (0.07901568), the model ha
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![img3](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Avg%20Order%20Total%20by%20Country.png).
 
 
