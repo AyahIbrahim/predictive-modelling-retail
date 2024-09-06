@@ -1,4 +1,4 @@
-# 📈 Supervised & Unsupervised Machine Learning in Retail
+![image](https://github.com/user-attachments/assets/cc99ad7b-18d5-4115-98cc-b548a471eb2f)# 📈 Supervised & Unsupervised Machine Learning in Retail
 
 
 This project aims to provide deep insights into sales trends and customer behavior to support strategic decisions. The model will forecast annual revenue for a UK-base online retail store specializing in selling unique gifts. This project utilizes time series analysis, helping the retailer plan for the future and customer segmentation to enable personalized marketing, enhancing engagement and driving revenue growth.
@@ -92,19 +92,30 @@ For recency, each customer is first assigned a label from 1 to 5, with 5 being t
 
 Each customer is then assigned to a segment based on their RFM Composite Score. This segmentation allows us to tailor marketing strategies appropriate to each group's behaviors and preferences.
 
+![map](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/af0bc7bebcd89a0338b25f2280089ffde4e7374e/Project%20Steps%20%26%20Visuals/RFM%20Segment%20Mapping.png).
+
 3- **Segment Descriptions:**
 
 ![descrip](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/f0e573105e81510f1fccf71545793470418195a6/Project%20Steps%20%26%20Visuals/RFM%20Segment%20Descriptions.png).
 
+## K-means Clustering - Unsupervised Machine Learning
 
+Now that I have both groups’ RFM Tables, I applied a model known as K-means which functions as a way to organize our big, mixed group of data points (customers) into smaller, more similar groups based on common features that the algorithm detects.
 
+![kmeans](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/1d707f87ef3a7926996de91a85b9d5e4a678364f/Project%20Steps%20%26%20Visuals/K-means%20Clustering.png). 
 
+### UK-based Customer Groups: 
 
+![UK](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/1d707f87ef3a7926996de91a85b9d5e4a678364f/Project%20Steps%20%26%20Visuals/UK%20Customer%20Groups.png).
 
+### All Other Countries Customer Groups: 
 
+![int](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/1d707f87ef3a7926996de91a85b9d5e4a678364f/Project%20Steps%20%26%20Visuals/All%20other%20Customer%20Groups.png). 
 
+## 📈 Key Results
 
+• Time series forecasting indicates a strong seasonal pattern. The model predicts a similar pattern to continue into the future year with high confidence.
 
+• The RFM analysis has revealed key customer groups, each with distinct behaviors. The UK market, while high in transactions, shows smaller average spending. The international segments contribute less in volume but more in transaction size.
 
-
-
+• The RFM table provides clear, actionable tips for each segment, and we will leverage these to deliver tailored marketing efforts and communication strategies, ensuring our retail store thrives in the competitive market.
