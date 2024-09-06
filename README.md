@@ -67,7 +67,7 @@ The retail store is facing an issue in that:
 
 • All other countries: contribute much less to total revenue but have very high average transaction totals. 
 
-# 🔢 Application of RFM Analysis:
+## 🔢 Application of RFM Analysis:
 
 Therefore, we will be splitting our customers into two groups:
 
@@ -77,6 +77,29 @@ Therefore, we will be splitting our customers into two groups:
 After that, we will be proposing a marketing tool for each group known as the **RFM (Recency, Frequency, Monetary)** in hopes of resolving the issue.
 
 ![RFM](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/2d5703c16436d76f8ac107da10ca32bfc1a1c095/Project%20Steps%20%26%20Visuals/RFM%20Explanation.png).
+
+## Why is RFM Useful in this case? 
+
+![RFMM](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/f0e573105e81510f1fccf71545793470418195a6/Project%20Steps%20%26%20Visuals/RFM%20Purpose.png).
+
+## 📱 RFM Calculation Process: 
+
+1- **RFM Values:**
+
+For recency, each customer is first assigned a label from 1 to 5, with 5 being the most recent and 1 being the least recent. For frequency & monetary, customers with the lowest values get a label of 1, and those with the highest get a label of 5. 
+
+2- **Segment Mapping:**
+
+Each customer is then assigned to a segment based on their RFM Composite Score. This segmentation allows us to tailor marketing strategies appropriate to each group's behaviors and preferences.
+
+3- **Segment Descriptions:**
+
+![descrip](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/f0e573105e81510f1fccf71545793470418195a6/Project%20Steps%20%26%20Visuals/RFM%20Segment%20Descriptions.png).
+
+
+
+
+
 
 
 
