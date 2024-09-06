@@ -23,7 +23,7 @@ Using this real [data](https://archive.ics.uci.edu/dataset/352/online+retail) so
 
 Both Quantity and Price distributions were highly right-skewed with outliers as indicated by their high standard deviations suggesting high-quantity/high-price transactions. 
 
-To address this, the Box-Cox transformation was applied, reducing skewness and making the data more normally distributed, though some outliers remained but were less extreme.
+To address this, the **Box-Cox** transformation was applied, reducing skewness and making the data more normally distributed, though some outliers remained but were less extreme.
 
 ### Pre-Transformation Boxplot: 
 
@@ -34,5 +34,13 @@ To address this, the Box-Cox transformation was applied, reducing skewness and m
 The λ parameters below indicate that the data required a moderate transformation to approach a normal distribution.
 
 ![post](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/b6965d84d509b5c910ac40039cb24c27fbc24ba6/Project%20Steps%20%26%20Visuals/Boxplot%20Post-transformation%20for%20Quanitity%20%26%20Price.png).
+
+# 📊 Visulazations of Some Key Metrics: 
+
+![img1](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Most%20Revenue%20%26%20Profit%20Generating%20Products.png).
+
+![img2](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Revenue%20by%20Country.png).
+
+![img3](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/fb7d74135267e8c2e45386d49942e5ff19996ad7/Project%20Steps%20%26%20Visuals/Avg%20Order%20Total%20by%20Country.png).
 
 
