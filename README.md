@@ -15,7 +15,7 @@ Using this real [data](https://archive.ics.uci.edu/dataset/352/online+retail) so
 
 • Added a new "Revenue" column by multiplying "Price" and "Quantity" for transaction-level sales analysis, aka **feature engineering**.
 
-## Take a look at the image below to see how my data was cleaned:
+### Take a look at the image below to see how my data was cleaned:
 
 ![cleaning](https://github.com/AyahIbrahim/predictive-modelling-retail/blob/b6965d84d509b5c910ac40039cb24c27fbc24ba6/Project%20Steps%20%26%20Visuals/Data%20Wrangling.png)
 
@@ -46,7 +46,7 @@ The λ parameters below indicate that the data required a moderate transformatio
 ### The fact that many other countries have higher average order totals despite contributing less to total revenue indicates that while these countries may have fewer sales transactions compared to the UK, the transactions they do have are generally larger.
 ### This could mean that customers in these countries are purchasing more expensive items or buying in larger quantities per transaction.
 
-# Predictive Modelling using Supervised Machine Learning - Time Series Forecasting: 
+## Predictive Modelling using Supervised Machine Learning - Time Series Forecasting: 
 
 ### With the info we have so far, I will first address the question: Is there hope that revenue will increase in the next year? 
 
